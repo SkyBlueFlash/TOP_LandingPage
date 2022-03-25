@@ -1,5 +1,6 @@
 body {
     background-color: #1f2937;
+    margin:0;
 }
 
 
@@ -11,10 +12,10 @@ h1 {
 
 .header {
     display: flex;
-    margin-left: 50px;
+    margin-left: 80px;
     justify-content: center;
     align-items:center;
-    gap: 550px;
+    gap: 485px;
     }
 
 .hlogo {
@@ -31,13 +32,14 @@ h1 {
     font-size: 18px;
     color: #E5E7EB;
     flex: 1;
-    max-width: 500px;
-    gap: 11px;
+    max-width: 600px;
+    gap: 50px;
 }
 
 .c1Main{
     display: flex;
     padding: 20px;
+    padding-bottom: 80px;
     margin: 48px;
     justify-content:center;
     gap: 150px;
@@ -55,4 +57,89 @@ img {
     max-width: 600px;
     background-color: grey;
     flex: 1;
+}
+
+.signBtn {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #3882F6;
+    color: wheat;
+    font-weight: 800;
+    width: 120px;
+    height: 35px;
+    pad: 50px;
+    
+}
+.c2 {
+    background: white;
+    margin: 0;
+    
+}
+.c2_1H {
+    display: flex;
+    justify-content: center;    
+}
+
+.c2_1H_text {
+    flex:1;
+    color: #1f2937;
+    font-size: 48px;
+    max-width: 600px;
+}
+
+.c2_1List {
+   
+    padding: 20px;
+    padding-bottom: 100px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.c2_1List_item{
+    padding: 20px;
+    flex: 1; 
+    font-weight: bold;
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    max-width: 200px;
+     
+}
+
+.c2_1List_item > img {
+    border: 5px #3882F6;
+    border-style: solid;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.c3 {
+    background: #E5E7EB;
+    padding-top: 0;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c3T {
+    max-width: 1000px;
+    max-height:600px;
+    font-size: 36px ;
+    font-style: italic;
+    font-weight: lighter;
+    flex: 1;
+    display: flex;
+    text-align: center;
+}
+.c3S {   
+    margin-top: 125px;
+    justify-content: right;
+    font-size: 36px;
+    font-weight: bold;
 }
