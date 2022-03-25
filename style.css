@@ -1,14 +1,19 @@
 body {
-    background-color: #1f2937;
+    
     margin:0;
 }
 
 
 h1 {
+        background-color: #1f2937;
         font-size: 48px;
         color: #F9FAF8;
         font-weight:800;
     }
+
+.p1 {
+    background-color: #1f2937;
+}
 
 .header {
     display: flex;
@@ -111,7 +116,7 @@ img {
 .c2_1List_item > img {
     border: 5px #3882F6;
     border-style: solid;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 20px;
     height: 200px;
     width: 200px;
@@ -128,7 +133,7 @@ img {
 }
 
 .c3T {
-    max-width: 1000px;
+    max-width: 900px;
     max-height:600px;
     font-size: 36px ;
     font-style: italic;
@@ -142,4 +147,72 @@ img {
     justify-content: right;
     font-size: 36px;
     font-weight: bold;
+}
+
+.c4 {
+    display: flex;
+    justify-content: center;
+}
+
+.c41 {
+    display: flex;
+    max-width: 1000px;
+    height: 100px;
+    margin: 150px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+.c41T {
+    
+    flex: 1;
+    max-width: 500px;
+
+}
+
+.c4H {
+    max-width: 800px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.c4T {
+    justify-content: center;
+    color: #E5E7EB
+}
+
+.signBtn2 {
+    height: 60px;
+    max-width: 300px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #E5E7EB;
+    background: #3882F6;
+    flex: 1;
+    font-weight: 800;
+    color: #E5E7EB;
+}
+
+.footer {
+    background: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fT {
+    text-align: center;
+    flex: 1;
+    font-weight: bold;
+    max-width:max-content;
+    font-size: 18px;
+    color:#E5E7EB
 }
