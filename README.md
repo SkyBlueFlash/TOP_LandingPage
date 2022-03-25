@@ -1,5 +1,5 @@
 # TOP_LandingPage
-a sollution for The Odin Project landing page assignment
+a solution for The Odin Project landing page assignment
 
-<a href='https://github.com/Lun-Dev/Landing-Page'>Link to preview!</a>
+<a href='https://skyblueflash.github.io/TOP_LandingPage/'>Link to preview!</a>
 
