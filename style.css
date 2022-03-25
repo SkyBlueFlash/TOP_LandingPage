@@ -89,7 +89,8 @@ img {
     flex:1;
     color: #1f2937;
     font-size: 48px;
-    max-width: 600px;
+    max-width: 500px;
+    text-align: center;
 }
 
 .c2_1List {
